@@ -461,7 +461,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: none;
 }
 
 .btn-rd {
@@ -476,11 +476,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 60px;
 }
 
 .sm-shadow {
@@ -936,7 +936,7 @@ h4 {
     }
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px!important;
+        margin: 5px 0 0 10px;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
