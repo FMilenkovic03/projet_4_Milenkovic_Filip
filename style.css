@@ -702,6 +702,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 h2 {
@@ -1030,15 +1033,25 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
+@media screen and (max-width: 767px) {
+    .cardstravail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (min-width: 375px) and (max-width:610px) {
+    .resizeimg{
+        width: 375px;
     }
 }
